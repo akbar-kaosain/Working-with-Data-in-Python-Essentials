@@ -1,0 +1,3 @@
+df.fillna(0)  ## fills NAN values with 0
+
+Df.fillna(0, inplace = True)   ## fills the empty cells with 0
