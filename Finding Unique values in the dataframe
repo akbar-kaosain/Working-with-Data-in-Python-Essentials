@@ -1,0 +1,3 @@
+print(df['department'].unique())
+print(df['quarter'].unique())
+print(df['day'].unique())
