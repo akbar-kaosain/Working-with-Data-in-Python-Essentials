@@ -1,0 +1,14 @@
+using Matplot
+
+import matplotlib.pyplot as plt
+plt.rcParams["figure.figsize"] = (20,15)
+boxplot = df.boxplot(column="col_name")
+
+
+using seaborn
+
+import seaborn as sns
+sns.set_theme(style="white")  #style can also be whitegrid
+tips = df
+ax = sns.boxplot(color='green', data=tips["col_name"], width=.5)
+ax.set( xlabel = "col_name")
